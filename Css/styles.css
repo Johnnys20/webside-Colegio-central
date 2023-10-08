@@ -234,3 +234,21 @@ body{
     font-weight: 300;
     text-align: center;
 }
+
+/* Image */
+
+
+.Image{
+    margin-bottom: 200px;
+}
+
+.image__content{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.image__group img{
+    width: 100%;
+}
+
