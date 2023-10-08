@@ -64,6 +64,15 @@ body{
     color: var(--secondColor);
 }
 
+.dropdown-menu{
+    background-color: var(--primaryColor);
+}
+
+.dropdown-menu .dropdown-item{
+    color: white;
+    background-color: var(--primaryColor);
+}
+
 
 .buttom{
     margin-right: 20px;
@@ -153,6 +162,49 @@ body{
     color: var(--primaryColor);
 }
 
+/* figures */
+
 .figures{
     margin-bottom: 200px;
+    text-align: center;
+}
+
+.figures h2{
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--thirdColor);
+    margin-bottom: 30px;
+}
+
+.figures__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.figures__group{
+    position: relative;
+}
+
+.figures__group img{
+    width: 100%;
+}
+
+.figures__text{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 40%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.figures__text h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primaryColor);
+}
+
+.figures__text p{
+    color: var(--thirdColor);
 }
