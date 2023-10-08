@@ -19,6 +19,7 @@ body{
 /* header */
 
 .header{
+    margin-top: 10px;
     margin-bottom: 200px;
 }
 
@@ -85,4 +86,13 @@ body{
     border: 1px solid var(--primaryColor);
     color: var(--primaryColor);
 
+}
+
+.header__img{
+    background: linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)),url(../Img/imagen_ini2.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
 }
