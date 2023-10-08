@@ -3,6 +3,7 @@
 :root{
     --primaryColor:#3CD311;
     --secondColor:#000000;
+    --thirdColor:#1D6708;
 }
 
 *, a, ul li{
@@ -73,7 +74,7 @@ body{
     color: white;
     font-weight: 500;
     padding: 10px;
-    background-color: var(--primaryColor);
+    background-color: var(--thirdColor);
     border-radius: 10px;
     transition-property: border-radius;
     transition-duration: 2000ms;
@@ -95,4 +96,63 @@ body{
     background-position: center center;
     background-size: cover;
     margin-top: 100px;
+}
+
+/* information */
+
+.information{
+    margin-bottom: 200px;
+}
+
+.information__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    text-align: center;
+}
+
+.information__group{
+    border-top: 1px solid var(--thirdColor);
+    border-radius: 20px;
+}
+
+.information__text{
+    padding: 20px;
+}
+
+.information__text h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--thirdColor);
+    margin-bottom: 20px;
+}
+
+.information__text p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.btn__2{
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background-color: var(--thirdColor);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition-property: border-radius;
+    transition-duration: 2000ms;
+}
+
+.btn__2:hover{
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+}
+
+.figures{
+    margin-bottom: 200px;
 }
