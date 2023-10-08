@@ -208,3 +208,29 @@ body{
 .figures__text p{
     color: var(--thirdColor);
 }
+
+/* news */
+
+.news{
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.news__group img{
+    width: 100px;
+    box-shadow: 3px 3px 10px var(--thirdColor);
+    margin-bottom: 20px;
+}
+
+.news__text h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.news__text p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
