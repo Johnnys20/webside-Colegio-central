@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/regristro.css">
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="header-brand-navbar">
+                <div class="header__brand">
+                    <a href="#">
+                        <img src="Img/logo_colegio_central-removebg-preview.png" alt="logo">
+                        <h1>Colegio central</h1>
+                    </a>
+                </div>
+                <nav class="navbar navbar-expand-lg ">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html#mision" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Misión
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="index.html#vision">Visión</a></li>
+                                <li><a class="dropdown-item" href="index.html#Valores">Valores</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admisiones.html">Admision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="information.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="buttom">
+                <a href="Iniciar_sesion.html" class="btn__1">iniciar Sesion</a>
+                <a href="registro.html" class="btn__1">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="sing-up">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Registrarse</h2>
+                    <!-- Formulario de Registro -->
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo"
+                                placeholder="Ingrese su correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Número de Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono"
+                                placeholder="Ingrese su número de teléfono">
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion">Dirección</label>
+                            <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
+                        </div>
+                        <div class="form-group">
+                            <label for="genero">Género</label>
+                            <select class="form-control" id="genero">
+                                <option value="masculino">Masculino</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contrasena">Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena"
+                                placeholder="Ingrese su contraseña">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmarContrasena">Confirmar Contraseña</label>
+                            <input type="password" class="form-control" id="confirmarContrasena"
+                                placeholder="Confirme su contraseña">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-personalizado">Registrar</button>
+                        </div>
+                    </form>
+                    <!-- Fin del Formulario de Registro -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__brand">
+                <a href="">
+                    <img src="Img/logo-colegio-1-1.png" alt="">
+                </a>
+            </div>
+            <nav class="foooter__navbar">
+                <ul>
+                    <li><a href="" class="foooter__navbar-link">Politicas de seguridad</a></li>
+                    <li><a href="" class="foooter__navbar-link">Inversionistas</a></li>
+                    <li><a href="" class="foooter__navbar-link">Configuracion</a></li>
+                    <li><a href="" class="foooter__navbar-link">Reglamentos</a></li>
+                </ul>
+            </nav>
+            <div class="footer__networks">
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-linkedin"></a>
+                <a href="#" class="fa-brands fa-github"></a>
+                <a href="#" class="fa-brands fa-git"></a>
+                <a href="#" class="fa-brands fa-twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/247739f67a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
