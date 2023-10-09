@@ -17,6 +17,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.modo-oscuro {
+    background-color: #121212; /* Color de fondo oscuro */
+    color: #ffffff; /* Texto en color claro */
+    /* Agrega otros estilos para el modo oscuro según tus preferencias */
+}
+
 /* header */
 
 .header{
@@ -74,30 +80,6 @@ body{
 }
 
 
-.buttom{
-    margin-right: 20px;
-}
-
-.buttom a{
-    font-size: 14px;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    background-color: var(--thirdColor);
-    border-radius: 10px;
-    transition-property: border-radius;
-    transition-duration: 2000ms;
-
-}
-
-.buttom a:hover{
-    background-color: transparent;
-    border-radius: 0;
-    border: 1px solid var(--primaryColor);
-    color: var(--primaryColor);
-
-}
-
 .header__img{
     background: linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)),url(../Img/imagen_ini2.jpg);
     width: 100%;
@@ -145,7 +127,7 @@ body{
 
 .btn__2{
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     background-color: var(--thirdColor);
     padding: 10px 20px;
@@ -161,6 +143,26 @@ body{
     border-radius: 0;
     border: 1px solid var(--primaryColor);
     color: var(--primaryColor);
+}
+
+.btn__3{
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    background-color:blue;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition-property: border-radius;
+    transition-duration: 2000ms;
+    margin-bottom: 20px;
+}
+
+.btn__3:hover{
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid blue;
+    color: var(--secondColor);
 }
 
 /* figures */

@@ -72,30 +72,26 @@ body{
     background-color: var(--primaryColor);
 }
 
-
-.buttom{
-    margin-right: 20px;
-}
-
-.buttom a{
-    font-size: 14px;
+.btn__2{
+    display: inline-block;
+    font-size: 12px;
     color: white;
-    font-weight: 500;
-    padding: 10px;
     background-color: var(--thirdColor);
+    padding: 10px 20px;
+    margin-top: 20px;
     border-radius: 10px;
     transition-property: border-radius;
     transition-duration: 2000ms;
-
+    margin-bottom: 20px;
 }
 
-.buttom a:hover{
+.btn__2:hover{
     background-color: transparent;
     border-radius: 0;
     border: 1px solid var(--primaryColor);
     color: var(--primaryColor);
-
 }
+
 
 .header__img{
     background: linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)),url(../Img/fondo_video_pagina.jpg);

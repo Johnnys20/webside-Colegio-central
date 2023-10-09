@@ -17,7 +17,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* header */
-
+.modo-oscuro {
+    background-color: #121212; /* Color de fondo oscuro */
+    color: #ffffff; /* Texto en color claro */
+    /* Agrega otros estilos para el modo oscuro según tus preferencias */
+}
 
 .header{
     margin-bottom: 200px;
